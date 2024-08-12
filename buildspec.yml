@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Build started on `date` 
       - echo "we will run some test"
-      - grep -Fq "congratulations" index.html
+      - grep -Fq "Congratulations" index.html
   post_build:
     commands:
       - echo "we are in post build pjhase"
